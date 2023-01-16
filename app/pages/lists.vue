@@ -28,6 +28,10 @@
             <p>English: {{ word.translation.english }}</p>
             <p>Thai: {{ word.translation.thai }}</p>
           </v-card-text>
+          <v-card-actions>
+            <v-btn color="error">Favorite</v-btn>
+            <v-btn color="primary">Add to Wordlist</v-btn>
+          </v-card-actions>
         </v-card>
       </div>
     </section>
