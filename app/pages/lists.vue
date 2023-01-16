@@ -12,6 +12,7 @@
             <h2>{{ word.vocab.simplified }} / {{ word.vocab.traditional }}</h2>
           </v-card-title>
           <v-card-text>
+            <h3>Overview</h3>
             <p>Category: {{ word.category }}</p>
             <p>Part of Speech: {{ word.pos }}</p>
           </v-card-text>
