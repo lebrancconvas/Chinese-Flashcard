@@ -29,8 +29,17 @@
             <p>Thai: {{ word.translation.thai }}</p>
           </v-card-text>
           <v-card-actions>
-            <v-btn color="error">Favorite</v-btn>
-            <v-btn color="primary">Add to Wordlist</v-btn>
+            <div id="favorite">
+              <div v-if="isFavorite === true">
+                <v-icon color="error">mdi-heart</v-icon>
+              </div>
+              <div v-else>
+                <v-btn color="error" @click="favorite">Favorite</v-btn>
+              </div>
+            </div>
+            <div id="add-to-wordlist">
+              <v-btn color="primary">Add to Wordlist</v-btn>
+            </div>
           </v-card-actions>
         </v-card>
       </div>
@@ -43,7 +52,8 @@
   export default {
     data() {
       return {
-        results: []
+        results: [],
+        isFavorite: false
       }
     },
     created() {
@@ -56,6 +66,11 @@
           console.error(err);
           console.log(`[ERROR] Fetching Data Error.`);
         })
+    },
+    methods: {
+      favorite() {
+        this.isFavorite = true;
+      }
     }
   }
 </script>
@@ -72,7 +87,7 @@
   }
 
   #word-list {
-    width: 60%;
+    width: 70%;
     margin: 5px auto;
   }
 </style>
