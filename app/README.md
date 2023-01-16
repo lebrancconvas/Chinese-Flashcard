@@ -1,4 +1,4 @@
-# app
+# Chinese Flashcard (Front-End: Nuxt)
 
 ## Build Setup
 
