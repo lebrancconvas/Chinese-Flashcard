@@ -2,6 +2,8 @@
 
 ## Overview
 
+Web Application Project for learning Chinese Vocabulary with Flashcard by learning from all perspective of Chinese like both Simplified and Traditional Chinese, Pinyin (Mandarin, Cantonese, Hokkien, and Teochew), and English, Thai Translation.
+
 ## Software Design
 
 ### Requirement
