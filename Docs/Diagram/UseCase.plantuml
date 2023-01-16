@@ -1,0 +1,19 @@
+@startuml Chinese_Flashcard_UseCase 
+left to right direction 
+skinparam packageStyle rectangle
+
+actor user 
+actor admin 
+
+rectangle Chinese_Flashcard {
+	user -- (Register)
+	(Login) .> (Register) : include 
+	(Register) -- admin 
+	user -- (Login)
+	(Login) -- admin 
+	user -- (Search Word)
+	user -- (Learning from Word)
+	user -- (Quiz)
+}
+
+@enduml
