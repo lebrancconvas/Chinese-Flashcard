@@ -2,6 +2,25 @@
 	"words": [
 		{
 			"id": 1,
+			"category": "Verb", 
+			"pos": "Verb", 
+			"vocab": {
+				"simplified": "吃",
+				"traditional": "吃" 
+			},
+			"pinyin": {
+				"mandarin": "Chī",
+				"cantonese": "Sik6",
+				"hokkien": "Jiak",
+				"teochew": "Jiak" 
+			},
+			"translation": {
+				"english": "(to) eat",
+				"thai": "กิน" 
+			}
+		},
+		{
+			"id": 2,
 			"category": "",
 			"pos": "", 
 			"vocab": {
