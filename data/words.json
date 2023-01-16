@@ -1,0 +1,23 @@
+{
+	"words": [
+		{
+			"id": 1,
+			"category": "",
+			"pos": "", 
+			"vocab": {
+				"simplified": "",
+				"traditional": ""
+			},
+			"pinyin": {
+				"mandarin": "",
+				"cantonese": "",
+				"hokkien": "",
+				"teochew": ""
+			},
+			"translation": {
+				"english": "",
+				"thai": ""
+			}
+		}
+	]
+}
