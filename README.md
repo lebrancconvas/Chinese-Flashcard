@@ -14,3 +14,5 @@
 - Sequence Diagram
 
 ### Tech Stack
+
+## Installation
