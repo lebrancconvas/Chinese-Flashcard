@@ -12,8 +12,17 @@ rectangle Chinese_Flashcard {
 	user -- (Login)
 	(Login) -- admin 
 	user -- (Search Word)
-	user -- (Learning from Word)
-	user -- (Quiz)
+	user -- (Interact with Word to learn)
+	user -- (Favorite Word)
+	user -- (Create Personal Category)
+	user -- (Update Personal Category)
+	user -- (Delete Personal Category)
+	user -- (Add Words to Personal Category)
+	user -- (Quiz) 
+	user -- (Update User Profile)
+	(Create Word) -- admin 
+	(Update Word) -- admin 
+	(Delete Word) -- admin 
 }
 
 @enduml
